@@ -8,7 +8,7 @@ from ..models import Question
 
 
 def index(request):
-    3/0
+    # 3/0
     #logger.info("INFO 레벨로 출력")
 
     page = request.GET.get('page', '1')  # 페이지
